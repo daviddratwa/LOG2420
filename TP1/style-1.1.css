@@ -1,0 +1,83 @@
+
+
+
+#ensemble { 
+
+	display: flex; 
+	flex-direction: column; 
+	border : 1px solid lightgrey;
+	margin-left: 60px; 
+
+ }
+
+
+
+ .firstRow { 
+
+ 	justify-content: space-around;
+    font-family: 'Lato', sans-serif;
+    display: flex; 
+    flex-direction: row;
+  	border-left: solid 0px lightgrey;
+  	text-align: center; 
+
+ 
+
+
+ }
+.elementInterieur { 
+
+ 	justify-content: space-around;
+    font-family: 'Lato', sans-serif;
+    display: flex; 
+    flex-direction: column;
+  	border-left: solid 1px lightgrey;	
+  	padding: 15px; 
+  	text-align: center; 
+  	border-bottom: solid 1px lightgrey; 
+
+
+
+ }
+
+
+
+.mh { 
+ 	  
+ 	justify-content: space-around;
+ 	color: grey; 
+ 	text-align: center; 
+}
+
+.jourN{
+
+	font-size : xx-large;  
+	justify-content: space-around;
+	text-align: center;
+}
+
+.jourL{ 
+
+	
+	justify-content: space-around;
+	text-align: center; 
+	color: grey ;
+	font-weight: bold;  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* font-family: 'Lato', sans-serif; */
