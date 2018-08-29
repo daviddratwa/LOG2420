@@ -6,13 +6,14 @@
 	display: flex; 
 	flex-direction: column; 
 	border : 1px solid lightgrey;
-	margin-left: 60px; 
-
+	margin-left: 60px;
+	min-width: 100px; 
+	max-width: 940px; 
  }
 
 
 
- .firstRow { 
+ .row { 
 
  	justify-content: space-around;
     font-family: 'Lato', sans-serif;
@@ -25,6 +26,17 @@
 
 
  }
+
+.checkRow{
+	justify-content: space-around;
+    font-family: 'Lato', sans-serif;
+    display: flex; 
+    flex-direction: row;
+  	border-left: solid 0px lightgrey;
+  	text-align: center; 
+  
+
+}
 .elementInterieur { 
 
  	justify-content: space-around;
@@ -32,7 +44,7 @@
     display: flex; 
     flex-direction: column;
   	border-left: solid 1px lightgrey;	
-  	padding: 15px; 
+  	padding: 20px; 
   	text-align: center; 
   	border-bottom: solid 1px lightgrey; 
 
@@ -40,6 +52,19 @@
 
  }
 
+.tickBox1{
+	justify-content: space-around;
+    font-family: 'Lato', sans-serif;
+    display: flex; 
+    flex-direction: row;
+  	border-left: solid 1px lightgrey;	
+  	padding: 20px; 
+  	text-align: center; 
+  	border-bottom: solid 1px lightgrey; 
+  	min-width: 41px; 
+
+
+}
 
 
 .mh { 
@@ -67,6 +92,11 @@
 }
 
 
+.numeroTick2{
+
+	color :lightblue;
+	font-size: large; 
+}
 
 
 
