@@ -18,8 +18,18 @@
     display: flex; 
     flex-direction: row;
   	text-align: center; 
+
  }
 
+ .rowTick { 
+ 	
+    font-family: 'Lato', sans-serif;
+    display: flex; 
+    flex-direction: row;
+  	text-align: center; 
+  	max-height: 55px; 
+  	min-height: 55px; 
+ }
 .blueRow{
 	
     font-family: 'Lato', sans-serif;
@@ -28,6 +38,8 @@
   	background-color: #91C8E9; 
   	text-align: center; 
   	justify-content: space-around;
+  	max-height: 70px; 
+  	min-height: 70px; 
 
 }
 .item { 
@@ -58,17 +70,45 @@
   
  }
 
-.tickBox1{
+  .firstItemUser {
+ 	justify-content: space-around;
+    font-family: 'Lato', sans-serif;
+    display: flex; 
+    flex-direction: row;
+  	border-left: solid 0px lightgrey;	
+  	padding-top: 15px; 
+  	flex-grow: 1;
+ }
+
+.tickBox2{
+	
+    font-family: 'Lato', sans-serif;
+    display: flex; 
+    flex-direction: row;
+  	border-left: solid 1px lightgrey;	
+  	padding-top: 15px;
+  	text-align: center; 
+  	border-bottom: solid 1px lightgrey; 
+  	min-width: 90px; 
+  	max-width: 90px; 
+  	max-height: 55px; 
+  	min-height: 55px; 
+  }
+
+
+  .tickBox{
 	justify-content: space-around;
     font-family: 'Lato', sans-serif;
     display: flex; 
     flex-direction: row;
   	border-left: solid 1px lightgrey;	
-  	padding: 20px; 
+  	padding: 0px; 
   	text-align: center; 
   	border-bottom: solid 1px lightgrey; 
-  	min-width: 50px; 
-  	max-width: 50px; 
+  	min-width: 90px; 
+  	max-width: 90px; 
+  	max-height: 55px; 
+  	min-height: 55px; 
   }
 
 
@@ -99,41 +139,25 @@
 }
 
 
-.premierTitre{
-	color : blue;
-}
-
 .champ { 
 	width: 20px; 
 	height: 20px;
 	font-size: 0.75em;
 }
 
-.divNames{
 
-	display : flex ;
-	flex-direction: row;
-}
-
-.usersBox{ 
-	justify-content: space-around;
-    font-family: 'Lato', sans-serif;
-    display: flex; 
-    flex-direction: column;
-  	border-left: solid 0px lightgrey;	
-  	padding: 16px; 
-  	text-align: center; 
-  	border-bottom: solid 1px lightgrey;  
-  	flex-grow: 1;
-}
 
 .user{ 
 	font-family: 'Lato', sans-serif;
     display: flex; 
     flex-direction: row;
-  	text-align: center; 
+  	text-align: left;
+  	padding-left: 10px;  
 }
 
 
+.emptyBox{
+background: black;
+}
 
-/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Lato', sans-serif;    #FCEDE9;*/
