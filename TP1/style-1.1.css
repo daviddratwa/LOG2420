@@ -2,44 +2,36 @@
 
 
 #ensemble { 
-
 	display: flex; 
 	flex-direction: column; 
 	border : 1px solid lightgrey;
 	margin-left: 60px;
-	min-width: 100px; 
-	max-width: 940px; 
+	min-width: 1020px; 
+	max-width: 1020px; 
  }
 
 
 
  .row { 
-
- 	justify-content: space-around;
+ 	
     font-family: 'Lato', sans-serif;
     display: flex; 
     flex-direction: row;
-  	border-left: solid 0px lightgrey;
   	text-align: center; 
-
- 
-
-
  }
 
-.checkRow{
-	justify-content: space-around;
+.blueRow{
+	
     font-family: 'Lato', sans-serif;
     display: flex; 
     flex-direction: row;
-  	border-left: solid 0px lightgrey;
+  	background-color: #91C8E9; 
   	text-align: center; 
-  
+  	justify-content: space-around;
 
 }
-.elementInterieur { 
-
- 	justify-content: space-around;
+.item { 
+	justify-content: space-around;
     font-family: 'Lato', sans-serif;
     display: flex; 
     flex-direction: column;
@@ -47,9 +39,23 @@
   	padding: 20px; 
   	text-align: center; 
   	border-bottom: solid 1px lightgrey; 
+  	min-width: 50px; 
+  	max-width: 50px; 
+ }
 
 
+ .firstItem {
+ 	justify-content: space-around;
+    font-family: 'Lato', sans-serif;
+    display: flex; 
+    flex-direction: row;
+  	border-left: solid 0px lightgrey;	
+  	padding: 16px; 
+  	text-align: center; 
+  	border-bottom: solid 1px lightgrey;  
+  	flex-grow: 1;
 
+  
  }
 
 .tickBox1{
@@ -61,10 +67,9 @@
   	padding: 20px; 
   	text-align: center; 
   	border-bottom: solid 1px lightgrey; 
-  	min-width: 41px; 
-
-
-}
+  	min-width: 50px; 
+  	max-width: 50px; 
+  }
 
 
 .mh { 
@@ -75,38 +80,59 @@
 }
 
 .jourN{
-
 	font-size : xx-large;  
 	justify-content: space-around;
 	text-align: center;
 }
 
 .jourL{ 
-
-	
 	justify-content: space-around;
 	text-align: center; 
 	color: grey ;
 	font-weight: bold;  
-
 }
 
 
 .numeroTick2{
-
-	color :lightblue;
+	color :#3798D4;
 	font-size: large; 
 }
 
 
+.premierTitre{
+	color : blue;
+}
 
+.champ { 
+	width: 20px; 
+	height: 20px;
+	font-size: 0.75em;
+}
 
+.divNames{
 
+	display : flex ;
+	flex-direction: row;
+}
 
+.usersBox{ 
+	justify-content: space-around;
+    font-family: 'Lato', sans-serif;
+    display: flex; 
+    flex-direction: column;
+  	border-left: solid 0px lightgrey;	
+  	padding: 16px; 
+  	text-align: center; 
+  	border-bottom: solid 1px lightgrey;  
+  	flex-grow: 1;
+}
 
-
-
-
+.user{ 
+	font-family: 'Lato', sans-serif;
+    display: flex; 
+    flex-direction: row;
+  	text-align: center; 
+}
 
 
 
