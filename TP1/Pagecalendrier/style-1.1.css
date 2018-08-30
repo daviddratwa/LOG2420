@@ -1,0 +1,163 @@
+
+
+
+#ensemble { 
+	display: flex; 
+	flex-direction: column; 
+	border : 1px solid lightgrey;
+	margin-left: 60px;
+	min-width: 1020px; 
+	max-width: 1020px; 
+ }
+
+
+
+ .row { 
+ 	
+    font-family: 'Lato', sans-serif;
+    display: flex; 
+    flex-direction: row;
+  	text-align: center; 
+
+ }
+
+ .rowTick { 
+ 	
+    font-family: 'Lato', sans-serif;
+    display: flex; 
+    flex-direction: row;
+  	text-align: center; 
+  	max-height: 55px; 
+  	min-height: 55px; 
+ }
+.blueRow{
+	
+    font-family: 'Lato', sans-serif;
+    display: flex; 
+    flex-direction: row;
+  	background-color: #91C8E9; 
+  	text-align: center; 
+  	justify-content: space-around;
+  	max-height: 70px; 
+  	min-height: 70px; 
+
+}
+.item { 
+	justify-content: space-around;
+    font-family: 'Lato', sans-serif;
+    display: flex; 
+    flex-direction: column;
+  	border-left: solid 1px lightgrey;	
+  	padding: 20px; 
+  	text-align: center; 
+  	border-bottom: solid 1px lightgrey; 
+  	min-width: 50px; 
+  	max-width: 50px; 
+ }
+
+
+ .firstItem {
+ 	justify-content: space-around;
+    font-family: 'Lato', sans-serif;
+    display: flex; 
+    flex-direction: row;
+  	border-left: solid 0px lightgrey;	
+  	padding: 16px; 
+  	text-align: center; 
+  	border-bottom: solid 1px lightgrey;  
+  	flex-grow: 1;
+
+  
+ }
+
+  .firstItemUser {
+ 	justify-content: space-around;
+    font-family: 'Lato', sans-serif;
+    display: flex; 
+    flex-direction: row;
+  	border-left: solid 0px lightgrey;	
+  	padding-top: 15px; 
+  	flex-grow: 1;
+ }
+
+.tickBox2{
+	
+    font-family: 'Lato', sans-serif;
+    display: flex; 
+    flex-direction: row;
+  	border-left: solid 1px lightgrey;	
+  	padding-top: 15px;
+  	text-align: center; 
+  	border-bottom: solid 1px lightgrey; 
+  	min-width: 90px; 
+  	max-width: 90px; 
+  	max-height: 55px; 
+  	min-height: 55px; 
+  }
+
+
+  .tickBox{
+	justify-content: space-around;
+    font-family: 'Lato', sans-serif;
+    display: flex; 
+    flex-direction: row;
+  	border-left: solid 1px lightgrey;	
+  	padding: 0px; 
+  	text-align: center; 
+  	border-bottom: solid 1px lightgrey; 
+  	min-width: 90px; 
+  	max-width: 90px; 
+  	max-height: 55px; 
+  	min-height: 55px; 
+  }
+
+
+.mh { 
+ 	  
+ 	justify-content: space-around;
+ 	color: grey; 
+ 	text-align: center; 
+}
+
+.jourN{
+	font-size : xx-large;  
+	justify-content: space-around;
+	text-align: center;
+}
+
+.jourL{ 
+	justify-content: space-around;
+	text-align: center; 
+	color: grey ;
+	font-weight: bold;  
+}
+
+
+.numeroTick2{
+	color :#3798D4;
+	font-size: large; 
+}
+
+
+.champ { 
+	width: 20px; 
+	height: 20px;
+	font-size: 0.75em;
+}
+
+
+
+.user{ 
+	font-family: 'Lato', sans-serif;
+    display: flex; 
+    flex-direction: row;
+  	text-align: left;
+  	padding-left: 10px;  
+}
+
+
+.emptyBox{
+background: black;
+}
+
+/* font-family: 'Lato', sans-serif;    #FCEDE9;*/
